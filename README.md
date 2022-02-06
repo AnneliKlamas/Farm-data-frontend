@@ -1,5 +1,9 @@
 # farm-data-frontend
 
+## Project is deployed in Heroku: https://farm-frontend.herokuapp.com/
+
+## NB! There is a problem with uploading large csv files 
+
 ## Project setup
 ```
 npm install
