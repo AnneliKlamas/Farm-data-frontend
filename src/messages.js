@@ -2,6 +2,7 @@ export const messages = {
     en: {
         tablePage: {
             title: 'Table',
+            deleteAll: 'Delete all data',
         },
         uploadPage:{
             uploadFile: 'Upload file',
