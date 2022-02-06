@@ -1,4 +1,4 @@
-import {SET_FARM_DATA} from "@/pages/TablePage/store/mutation-types";
+import {SET_FARM_DATA} from "./mutation-types";
 
 export const mutations = {
     [SET_FARM_DATA](state, farmData) {

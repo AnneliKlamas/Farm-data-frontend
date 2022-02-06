@@ -1,13 +1,13 @@
 import Vuex from "vuex";
+import Vue from 'vue'
 
-import table from "@/pages/TablePage/store"
+import table from "../pages/table-page/store/index"
 
-const createStore = () => {
-    return new Vuex.Store({
-        modules: {
-            table: table
-        }
-    });
-};
+Vue.use(Vuex)
 
-export default createStore;
+export default new Vuex.Store({
+    modules: {
+        table: table
+    }
+})
+

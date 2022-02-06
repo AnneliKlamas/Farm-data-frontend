@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import TablePage from "@/pages/TablePage/table-page";
+import TablePage from "./pages/table-page/table-page";
 
 export default {
   name: 'App',
