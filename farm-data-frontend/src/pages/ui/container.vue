@@ -12,8 +12,7 @@ export default {
 
 <style scoped>
   .container{
-    background: whitesmoke;
+    background: ghostwhite;
     border-radius: 5px;
-    padding: 2rem;
   }
 </style>

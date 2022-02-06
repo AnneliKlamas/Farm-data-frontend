@@ -1,1 +1,2 @@
 export const FETCH_FARM_DATA = 'FETCH_FARM_DATA'
+export const UPLOAD_FARM_DATA = 'UPLOAD_FARM_DATA'
