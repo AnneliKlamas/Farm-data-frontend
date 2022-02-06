@@ -1,5 +1,5 @@
 <template>
-  <b-table-simple responsive>
+  <b-table-simple hover>
     <b-thead>
       <b-tr>
         <b-th v-for="(column,index) in columns" :key="index">
@@ -8,7 +8,7 @@
       </b-tr>
     </b-thead>
     <b-tbody>
-      <b-tr v-for="(data, index) in farmData" :key="index">
+      <b-tr class="hover" v-for="(data, index) in farmData" :key="index">
         <b-td>
           {{data.id}}
         </b-td>
@@ -68,5 +68,7 @@ export default {
 </script>
 
 <style scoped>
-
+  .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background: aliceblue;
+  }
 </style>
