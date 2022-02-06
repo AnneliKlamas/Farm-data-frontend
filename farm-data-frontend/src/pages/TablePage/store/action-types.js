@@ -1,0 +1,1 @@
+export const FETCH_FARM_DATA = 'FETCH_FARM_DATA'
