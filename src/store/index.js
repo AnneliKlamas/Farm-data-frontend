@@ -1,7 +1,7 @@
 import Vuex from "vuex";
 import Vue from 'vue'
 
-import table from "../pages/table-page/store/index"
+import table from "../pages/table-page/store"
 
 Vue.use(Vuex)
 
